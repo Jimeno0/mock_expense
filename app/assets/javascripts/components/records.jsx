@@ -7,6 +7,7 @@ class Records extends React.Component {
 			<div className="records container">
       	<h2 className="title"> Records </h2>
       	<List records={this.props.data}/>
+      	<RecordForm />
     	</div>
 		)
 	}
